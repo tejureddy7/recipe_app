@@ -13,7 +13,7 @@ ThemeData buildTheme() {
 
   }
 
-  final ThemeData base = themeData.light();
+  final ThemeData base = ThemeData.light();
   return base.copyWith(
     textTheme: _buildTextTheme(base.textTheme),
   );

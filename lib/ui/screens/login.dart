@@ -36,7 +36,7 @@ class LoginScreen extends StatelessWidget {
               MaterialButton(
                 color: Colors.white,
                 child: Text("Sign In with Google"),
-                onPressed: () => print("Button pressed."),
+                onPressed: () => Navigator.of(context).pushReplacementNamed('/'),
               ),
             ],
           ),
