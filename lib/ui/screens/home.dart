@@ -8,9 +8,11 @@ class HomeScreen extends StatelessWidget {
     return DefaultTabController(
       length: 2,
       child: Scaffold(
-        appBar: AppBar(
+        appBar:  PreferredSize(
+          preferredSize: Size.fromHeight(50.0),
+          child: AppBar(
           backgroundColor: Colors.black12,
-          elevation: 2.0,
+          elevation: 0.0,
           bottom: TabBar(
             labelColor: Theme.of(context).indicatorColor,
             tabs: <Widget>[
@@ -18,7 +20,7 @@ class HomeScreen extends StatelessWidget {
               Tab(icon: Icon(Icons.done,size: _iconSize))
             ],
           ),
-
+         ),
         ),
 
         body: Padding(
