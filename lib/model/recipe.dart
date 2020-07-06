@@ -1,6 +1,6 @@
 import 'package:duration/duration.dart';
 
-emum RecipeType {
+enum RecipeType {
   food,
   drink,
 }
@@ -9,8 +9,8 @@ class Recipe {
   final RecipeType type;
   final String name;
   final Duration duration;
-  final List<string> ingredients;
-  final List<string> preparation;
+  final List ingredients;
+  final List preparation;
   final String imageURL;
 
   const Recipe({

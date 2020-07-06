@@ -5,23 +5,29 @@ List<Recipe> getRecipes() {
     Recipe(
       id: '0',
       type: RecipeType.food,
-      name: 'Oatmeal with Fruits',
+      name: 'French toast',
       duration: Duration(minutes: 15),
       ingredients: [
-        '100g of oats',
-        '100ml of milk',
-        'Fruits of your choice',
-        'Honey',
+        '4 eggs',
+
+        '2 tablenspoons of sugar',
+        '4 tablespoons of butter',
+        '1/4 cup milk',
+        '1/2 teaspoon vanilla extract',
+        '8slices of bread',
+        '1/2 cup maple syrup',
+        'ground nutmeg',
         'Cinnamon',
       ],
       preparation: [
-        'Step 1',
-        'Step 2',
+        'Step 1 - In a small bowl, combine cinnamon, nutmeg, and sugar and set aside briefly',
+        'Step 2-  In a 10-inch or 12-inch skillet, melt butter over medium heat. Whisk together cinnamon mixture, eggs, milk, and vanilla and pour into a shallow container such as a pie plate. Dip bread in egg mixture. Fry slices until golden brown, then flip to cook the other side. Serve with syrup.',
         'Step 3',
       ],
       imageURL:
       'https://images.unsplash.com/photo-1517673400267-0251440c45dc?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f197f4922b3f26ed3f4e3e66a113b67b&auto=format&fit=crop&w=1050&q=80',
     ),
+
     Recipe(
       id: '1',
       type: RecipeType.food,
@@ -43,6 +49,9 @@ List<Recipe> getRecipes() {
       imageURL:
       'https://images.unsplash.com/photo-1517741991040-91338b176129?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f65c4032c1b3131f829d464fb979f5e8&auto=format&fit=crop&w=675&q=80',
     ),
+  ];
+}
+  /*
     Recipe(
       id: '2',
       type: RecipeType.drink,
@@ -62,7 +71,7 @@ List<Recipe> getRecipes() {
       imageURL:
       'https://images.unsplash.com/photo-1506802913710-40e2e66339c9?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c8ffc5bbb3719b5a46ee703acb0a0ac5&auto=format&fit=crop&w=634&q=80',
     ),
-    Recipe(
+    Recipe(``
       id: '3',
       type: RecipeType.drink,
       name: 'Blueberry Smoothie',
@@ -91,3 +100,5 @@ List<String> getFavoritesIDs() {
     '3',
   ];
 }
+
+*/
