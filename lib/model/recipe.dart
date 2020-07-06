@@ -1,4 +1,5 @@
 import 'package:duration/duration.dart';
+//String get getDurationString => prettyDuration(this.duration);
 
 enum RecipeType {
   food,
